@@ -1,0 +1,66 @@
+body{
+    display: grid;
+    grid-template-rows: 80px auto;
+    margin: 0;
+    grid-template-areas: 
+    "top"
+    "boxcontainer";
+    
+}
+.top{
+    background-color: aqua;
+    height: 80px;
+    
+    grid-area: top;
+    
+}
+.boxcontainer{
+    padding-top: 80px;
+    height: 100%;
+    background-color: green;
+    grid-area: boxcontainer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+i.material-icons{
+    font-size: 100.5px;
+
+
+}
+.box{
+    background-color: black;
+    height: 250px;
+    width: 160px;
+    margin: 10px;
+}
+.tag{
+
+    background-color: gray;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    top: 100px;
+    left:10px;
+
+
+}
+#arrow{
+
+    font-size: 2rem;
+    transform: rotate(90deg);
+    position: relative;
+    top: -24px;
+    left: 85px;
+
+}
+p{
+    font-size: 1.5rem;
+    margin: 0;
+    position: relative;
+    top: 6.5px;
+}
+.tagchange{
+
+    
+}
