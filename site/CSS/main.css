@@ -8,7 +8,7 @@ body{
     
 }
 .top{
-    background-color: aqua;
+    background-color: white;
     height: 80px;
     
     grid-area: top;
@@ -17,22 +17,27 @@ body{
 .boxcontainer{
     padding-top: 80px;
     height: 100%;
-    background-color: green;
+    background-color: red;
     grid-area: boxcontainer;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 i.material-icons{
-    font-size: 100.5px;
+    font-size: 60.5px;
+    position: relative;
+    top: 10.25px;
+    left: 350px;
 
 
 }
 .box{
-    background-color: black;
+    background-color: hotpink;
     height: 250px;
     width: 160px;
     margin: 10px;
+    display: grid;
+    grid-template-rows: 175px 75px;
 }
 p{
     font-size: 1.5rem;
@@ -45,7 +50,7 @@ p{
     display: none;
     position: absolute;
     top: 40px;
-    background-color: gray;
+    background-color: lightgray;
     width: 120px;
         
 
@@ -64,7 +69,7 @@ p{
 }
 .tag{
             
-    background-color: gray;
+    background-color: lightgray;
     height: 40px;
     width: 120px;
     position: absolute;
@@ -86,7 +91,7 @@ p{
     justify-content: start;
     align-items: center;
     height: 40px;
-    background-color:gray;
+    background-color:lightgray;
     font-size: 1.5rem;
     margin: 0;
     box-shadow: 0px 1px black;
@@ -99,4 +104,25 @@ p{
 
 .menytext{
     color: black;
+}
+.searchbar{
+    background-color: lightgray;
+    height: 50px;
+    width: 0px;
+    border-radius: 30px;
+    position: relative;
+    top: -55px;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transform: translateX(-100%)
+
+
+
+}
+.showsearch{
+    width: 300px;
+    /* transition-timing-function: ease-out;
+    transition-duration: 2s;
+    transform: translateX(-100%) */
+
 }
