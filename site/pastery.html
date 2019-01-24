@@ -10,17 +10,19 @@
     rel="stylesheet">
 </head>
 <body>
+<div class="wrapper">
+            
     <div class="top">
         <i class="material-icons" onclick="searchf()">search<div class="searchbar"></div></i>
         
     </div>
     <div class="boxcontainer">
         <div class="tag" onclick="tagbar()" id="dropdown">
-            <p>Pastery</p>
-            <i id="arrow" class="material-icons">play_arrow</i>
+                <p>Pastery</p>
+                <i id="arrow" class="material-icons">play_arrow</i>
             <div class="dropdown">
                 <div class="tagcont">
-                <a href="main.html"><div class="menytext">Alla</div></a>
+                    <a href="main.html"><div class="menytext">Alla</div></a>
                 </div>
                 <div class="tagcont">
                     <a href="food.html"><div class="menytext">Food</div></a>
@@ -31,18 +33,22 @@
             </div>
 
         </div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box">
+            <img src="IMG/Pepparkakor.jpg" alt="köttbullar">
+            <a href="pepparkakor.html"><div class="boxtext">Pepparkakor</div></a>
+        </div>
+        <div class="box">
+            <img src="IMG/Mjukpepparkaka.jpg" alt="köttbullar">
+            <div class="boxtext">Mjukpepparkaka</div>
+        </div>
+        <div class="box">
+            <img src="IMG/lusse.jpg" alt="köttbullar">
+            <div class="boxtext">Lussekatter</div>
+        </div>
+        <div class="box">
+            <img src="IMG/fruktkaka.jpg" alt="köttbullar">
+            <div class="boxtext">Fruktkaka</div>
+        </div>
 
 
 
@@ -51,5 +57,6 @@
 
     </div>
     <script src="JS/main.js"></script>
+</div>
 </body>
 </html>
